@@ -1,6 +1,6 @@
 #made by shade2go and tiervisten
 import math
-import random  #shall we post it now?
+import random  
 import time     
 print("Welcome") 
 
