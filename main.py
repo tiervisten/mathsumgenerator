@@ -13,9 +13,11 @@ def sumMathQuestions():
         question = int(input(f"What's {a} + {b}\n"))
         if question == theAnswer: 
             print("Correct")
-            score += 1   
+            score += 10  
             print(f"Score = {score}") 
         else: 
             print("Wrong")
+            if i >= 9: # if last iteration, print score
+             print(f"Score = {score}") 
             
 sumMathQuestions() 
