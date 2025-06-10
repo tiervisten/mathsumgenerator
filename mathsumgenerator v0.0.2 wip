@@ -1,0 +1,27 @@
+import random as r
+import math as m
+import time 
+
+operationlist = ["+","-"]
+randomoperation = r.choice(operationlist)
+def mathquestiongenerator():
+    randomoperation = r.choice(operationlist)
+    numberplace1 = r.randint(1,10)
+    numberplace2 = r.randint(1,10)
+    if randomoperation == "+":
+        theanswer = numberplace1 + numberplace2
+    elif randomoperation == "-":
+        theanswer = numberplace1 - numberplace2
+    print(f"{numberplace1} {randomoperation} {numberplace2}")
+
+for i in range (10):
+    mathquestiongenerator()
+
+
+
+
+
+
+
+
+
