@@ -17,7 +17,7 @@ def math_question_generator():
         answer = None  # fallback, should never happen
     
     # Ask the user
-    user_input = int(input(f"What is {num1} {random_operation} {num2}? "))
+    user_input = int(input(f"What is {num1} {random_operation} {num2}?\n "))
     if user_input == answer:
         print("Correct!")
         return 1
